@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="TOP_CENTER" spacing="2.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clicky.autoclicker.HelloController">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label text="Interval per Click (ms)" />
+    <TextField fx:id="tf" />
+
+    <Button fx:id="fxbtn" onAction="#updateAC" text="Start Autoclickin" />
+    <Label fx:id="errors" />
+    <Label fx:id="status" />
+
+</VBox>
